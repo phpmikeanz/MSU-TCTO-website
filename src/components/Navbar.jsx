@@ -227,16 +227,14 @@ const Navbar = ({ path }) => {
         <div className={`w-full bg-msu-deep-ocean dark:bg-gray-800 text-white dark:text-gray-100 transition-all duration-300 ${scrolled ? 'py-1' : 'py-2'} hidden lg:block`}>
           <div className="container mx-auto px-4 xl:px-6 flex justify-between items-center">
             <div className="flex items-center space-x-6">
-              <div className="flex items-center">
-                <FaPhone className="text-white dark:text-gray-300 text-sm" />
-                <span className="text-xs sm:text-sm">+63 909 982 6063</span>
-              </div>
-              <div className="flex items-center">
-                <FaEnvelope className="text-white dark:text-gray-300 mr-2 text-sm" />
-                <a href="mailto:admissions@msutcto.edu.ph" className="text-xs sm:text-sm hover:text-msu-gold dark:hover:text-yellow-400 transition-colors duration-200">
-                  admissions@msutcto.edu.ph
-                </a>
-              </div>
+              <a
+                href="#footer-contact"
+                className="flex items-center gap-2 text-xs sm:text-sm text-white dark:text-gray-100 hover:text-msu-gold dark:hover:text-yellow-400 transition-colors duration-200 font-medium"
+                aria-label="View contact information"
+              >
+                <FaEnvelope className="text-current text-sm flex-shrink-0" aria-hidden />
+                <span>Contact Information</span>
+              </a>
             </div>
             
             <div className="flex items-center space-x-4">

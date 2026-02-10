@@ -54,6 +54,7 @@ export const navigationConfig = {
       { label: "Administrative Offices", href: "/offices/offices", footerLabel: "Administrative Offices", footerHref: "/offices/offices#administrative" },
       { label: "Academic Offices", href: "/offices/academic-offices", footerLabel: "Academic Offices" },
       { label: "Faculty & Staff", href: "/offices/faculty-staff", footerLabel: "Faculty and Staff" },
+      { label: "University Offices", href: "/offices/universityoffices", footerLabel: "University Offices" },
     ]
   },
 
